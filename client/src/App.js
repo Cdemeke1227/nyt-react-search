@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Articles from './pages/Articles';
-import Nav from "./components/Nav";
 import Results from "./components/Results";
 import Save from "./components/Save";
 import Jumbotron from "./components/Jumbotron";
@@ -14,9 +13,9 @@ class App extends Component {
       <div className="App">
         <Router>
           <div>
-            <Nav />
+            
             <Jumbotron>
-            <h1>Search</h1>
+            <h1>New York Time Article Search</h1>
             </Jumbotron>
             <Articles>
               <Switch>

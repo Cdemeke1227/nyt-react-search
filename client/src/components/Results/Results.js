@@ -41,10 +41,10 @@ class Results extends Component {
         <Jumbotron>
           <h1>Results</h1>
         </Jumbotron>
-        {console.log ("article array in results: " + this.state.results)}
-        {this.state.results.length ? (
+        {console.log ("article array in results: " + this.props.results)}
+        {this.props.results.length ? (
           <List>
-            {this.state.results.map(article => {
+            {this.props.results.map(article => {
               return (
                 <ListItem key={article._id}>
                   <Link to={article.web_url}>

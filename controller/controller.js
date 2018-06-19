@@ -38,7 +38,7 @@ module.exports = {
   },
   search: function(req, res) {
     console.log("searching for nytimes articles");
-    const APIKEY = "b669c8f7a75b4f6aa51c7ea82d69ed31";
+    const APIKEY = "eae951f8df9e4be7a0a870316923af6b";
     let searchterms = "top+stories";
     if (req.params.query) {
         console.log("query attached");
