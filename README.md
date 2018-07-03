@@ -52,4 +52,4 @@ To use the app just go to the site and type a search term in to he form input.
 [nyt-react-search](https://nytreactsearchv1.herokuapp.com/) 
 
 ## Authors
-* **Christopher Demeke** - [Cdemeke1227] (https://github.com/Cdemeke1227) [Portfolio Link] (https://christopher-demeke.herokuapp.com/)
+* **Christopher Demeke** - [Cdemeke1227](https://github.com/Cdemeke1227) [Portfolio Link](https://christopher-demeke.herokuapp.com/)
